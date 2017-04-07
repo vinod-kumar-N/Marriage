@@ -39,10 +39,18 @@
     .commonBorder.second{
         height: 593px;
     }
+     #countDown{
+        width: 248px;
+        font-size: 20px;
+        left: 19%;
+     }
 }
    
 /*Then comes Small Devices*/
 @media (min-width: 768px) {
+    .displayAin-blk{
+    display: inline-block;
+}
     .navbar-nav>li{
         float: none;
         display: inline-block;
@@ -64,6 +72,13 @@
     }
     .commonBorder.second{
         height: 276px;
+    }
+    
+    #countDown{
+        top:39%;
+        width: 500px;
+        font-size: 40px;
+        left: 19%;
     }
 }
 /*Then comes Medium Devices*/
@@ -88,6 +103,11 @@
     .paddLlg15{
        padding-left: 15px; 
     }
+    #countDown{
+        width: 500px;
+        font-size: 40px;
+        left: 31%;
+    }
 }
 
 /*Then Comes Large Devices*/
@@ -107,6 +127,14 @@
     .fontlg40{
         font-size: 40px;
     }
+    #countDown{
+        left: 40%;
+    }
+    #countDown{
+        width: 500px;
+        font-size: 40px;
+        left: 39%;
+    }
 }
 
 /*common Css*/
@@ -123,6 +151,16 @@ body{
 }
 .fontRoboto, body{
     font-family: Roboto;
+}
+.heightAuto{
+    height: auto;
+    overflow: hidden;
+}
+.posRel{
+    position: relative;
+}
+.posAb{
+    position: absolute;
 }
 .marginTop10{
     margin-top: 10px;
@@ -147,6 +185,9 @@ body{
 }
 .marginBottom10{
     margin-bottom: 10px;
+}
+.marginBottom20{
+    margin-bottom: 20px;
 }
 .padding0{
     padding: 0px;
@@ -269,4 +310,14 @@ hr{
     height: 200px;
     border: 5px solid #fff;
     border-radius: 4px;
+}
+#countDown{
+    z-index:2;
+    top:50%;
+}
+#countDown.xtra{
+    left:33%;
+}
+#countDown.xtra736{
+    left:35%;
 }
