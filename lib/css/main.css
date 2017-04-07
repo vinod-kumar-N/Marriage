@@ -1,0 +1,231 @@
+/*Write XtraSmall First like common */
+@media (max-width: 767px) {
+	 .fontxs12{
+        font-size:12px; 
+    }
+    .fontxs14{
+        font-size:14px; 
+    }
+    .fontxs16{
+        font-size:16px; 
+    }
+     .fontxs18{
+        font-size:18px; 
+    }
+     .fontxs20{
+        font-size:20px; 
+    }
+    #demos img{
+        max-height: 150px;
+    }
+    .titleSection{
+        text-align: center;
+    }
+    .commonGateWay{
+        margin-top: 20px;
+    }
+    .commonTagBox{
+        margin-top: 73px;
+    }
+}
+   
+/*Then comes Small Devices*/
+@media (min-width: 768px) {
+    .navbar-nav>li{
+        float: none;
+        display: inline-block;
+    }
+	.nav.navbar-nav{
+        float: none;
+    }
+    #demos img{
+        max-height: 300px;
+    }
+    .fa-heart{
+        vertical-align: middle;
+    }
+    .commonTagBox{
+        margin-top: 73px;
+    }
+}
+/*Then comes Medium Devices*/
+@media (min-width: 992px){
+	.titleSection p span{
+        font-weight: bold;
+        text-transform: uppercase;
+        font-size: 20px;
+        display: inline-block;
+        padding-top: 0;
+        vertical-align: middle;
+    }
+    #demos img{
+        max-height: 600px;
+    }
+    .commonGateWay{
+        margin-top: 50px;
+    }
+    .commonTagBox{
+        margin-top: 76px;
+    }
+}
+
+/*Then Comes Large Devices*/
+@media (min-width: 1200px) {
+    .fontlg16{
+        font-size: 16px;
+    }
+    .fontlg18{
+        font-size: 18px;
+    }
+	.fontlg20{
+        font-size: 20px;
+    }
+    .fontlg60{
+        font-size: 60px !important;
+    }
+    .fontlg40{
+        font-size: 40px;
+    }
+}
+
+/*common Css*/
+img{
+    width: 100%;
+    height: 100%;
+}
+body{
+    background-color: #f3eded;
+}
+@font-face {
+    font-family: Roboto;
+    src: url(../fonts/Roboto-Regular.ttf);
+}
+.fontRoboto, body{
+    font-family: Roboto;
+}
+.marginTop10{
+    margin-top: 10px;
+}
+.marginTop5{
+    margin-top: 5px;
+}
+.margin0{
+    margin: 0px;
+}
+.marginBottom5{
+    margin-bottom: 5px;
+}
+.marginBottom2{
+    margin-bottom: 2px;
+}
+.marginBottom10{
+    margin-bottom: 10px;
+}
+.padding0{
+    padding: 0px;
+}
+.paddingLeft0{
+    padding-left: 0px;
+}
+.paddingTop10{
+    padding-top: 10px;
+}
+.lightPinkClr{
+    color: #EF7F7E;
+}
+.lightPinkBgClr{
+    background: #EF7F7E;
+}
+.commonLightPinkClr{
+    color:#f3eded;
+}
+.vcenter{
+   vertical-align: middle; 
+}
+.displayin-blk{
+    display: inline-block;
+}
+.bringCenter{
+    margin: 0 auto;
+    float: none;
+}
+font-awesome.min.css{
+    background-repeat: no-repeat;
+    background-size: 31px 34px;
+    display: block;
+    height: 34px;
+    margin-top: -19px;
+    opacity: 1;
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    width: 31px;
+}
+.cardMain{
+    background: #EF7F7E;
+    -webkit-box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.26);
+    -moz-box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.26);
+    -ms-box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.26);
+    -o-box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.26);
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.26);
+    border-radius: 3px;
+}
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover, .navbar-default .navbar-nav>li>a:hover{
+    color: #fff;
+    background-color: transparent;
+}
+.navbar-default .navbar-nav>li>a{
+    color: #000;
+}
+.commonCardTitle{
+    padding: 10px;
+}
+.commonSubCard{
+    border-radius: 4px;
+    padding: 4px 3px 2px 3px;
+}
+.commonBorder{
+    width: 2px;
+    border: 2px solid #EF7F7E;
+    height: 50px;
+    margin: 0 auto;
+    float: none;
+    clear: both;
+}
+.commonInfoBox{
+    border: 1px solid #EF7F7E;
+    border-radius: 2px;
+    background: #fff;
+    margin-top: 56px;
+}
+.arrow-right {
+    width: 0;
+    height: 0;
+    border-top: 12px solid transparent;
+    border-bottom: 12px solid transparent;
+    border-left: 12px solid #EF7F7E;
+    position: absolute;
+    right: -12px;
+    top: 27px;
+}
+.arrow-left {
+    width: 0;
+    height: 0;
+    border-top: 7px solid transparent;
+    border-bottom: 7px solid transparent;
+    border-right: 9px solid #B1B0AC;
+    position: absolute;
+    left: -9px;
+    bottom: 11px;
+}
+.commonTagBox{
+    background: #B1B0AC;
+    padding: 5px;
+    border-radius: 4px;
+}
+hr{
+      border-top: 1px dashed #EF7F7E;  
+}
+.imagesContent a{
+    height: 50px;
+}
