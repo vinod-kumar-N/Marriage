@@ -36,6 +36,9 @@
     .paddxs0{
         padding: 0;
     }
+    .commonBorder.second{
+        height: 593px;
+    }
 }
    
 /*Then comes Small Devices*/
@@ -59,7 +62,9 @@
     .paddingLeftsm0{
        padding-left: 0; 
     }
-    
+    .commonBorder.second{
+        height: 276px;
+    }
 }
 /*Then comes Medium Devices*/
 @media (min-width: 992px){
@@ -122,6 +127,12 @@ body{
 .marginTop10{
     margin-top: 10px;
 }
+.marginTop20{
+    margin-top: 20px;
+}
+.marginTop40{
+    margin-top: 40px;
+}
 .marginTop5{
     margin-top: 5px;
 }
@@ -142,6 +153,9 @@ body{
 }
 .paddingLeft0{
     padding-left: 0px;
+}
+.paddingLeft5{
+    padding-left: 5px;
 }
 .paddingTop10{
     padding-top: 10px;
@@ -244,4 +258,15 @@ hr{
 }
 .imagesContent a{
     height: 50px;
+}
+.MantapaInfo i{
+    vertical-align: top;
+}
+.MantapaInfo span{
+    line-height: 18px;
+}
+#map_canvas{
+    height: 200px;
+    border: 5px solid #fff;
+    border-radius: 4px;
 }
