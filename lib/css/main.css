@@ -15,6 +15,9 @@
      .fontxs20{
         font-size:20px; 
     }
+    .mBtm5{
+        margin-bottom: 5px;
+    }
     #demos img{
         max-height: 150px;
     }
@@ -25,7 +28,13 @@
         margin-top: 20px;
     }
     .commonTagBox{
-        margin-top: 73px;
+        margin-top: 79px;
+    }
+    .paddLxs0{
+        padding-left: 0;
+    }
+    .paddxs0{
+        padding: 0;
     }
 }
    
@@ -47,6 +56,10 @@
     .commonTagBox{
         margin-top: 73px;
     }
+    .paddingLeftsm0{
+       padding-left: 0; 
+    }
+    
 }
 /*Then comes Medium Devices*/
 @media (min-width: 992px){
@@ -66,6 +79,9 @@
     }
     .commonTagBox{
         margin-top: 76px;
+    }
+    .paddLlg15{
+       padding-left: 15px; 
     }
 }
 
