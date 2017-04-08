@@ -1,19 +1,19 @@
 /*Write XtraSmall First like common */
 @media (max-width: 767px) {
 	 .fontxs12{
-        font-size:12px; 
+        font-size:12px;
     }
     .fontxs14{
-        font-size:14px; 
+        font-size:14px;
     }
     .fontxs16{
-        font-size:16px; 
+        font-size:16px;
     }
      .fontxs18{
-        font-size:18px; 
+        font-size:18px;
     }
      .fontxs20{
-        font-size:20px; 
+        font-size:20px;
     }
     .mBtm5{
         margin-bottom: 5px;
@@ -39,13 +39,8 @@
     .commonBorder.second{
         height: 593px;
     }
-     #countDown{
-        width: 248px;
-        font-size: 20px;
-        left: 19%;
-     }
 }
-   
+
 /*Then comes Small Devices*/
 @media (min-width: 768px) {
     .displayAin-blk{
@@ -68,18 +63,12 @@
         margin-top: 73px;
     }
     .paddingLeftsm0{
-       padding-left: 0; 
+       padding-left: 0;
     }
     .commonBorder.second{
         height: 276px;
     }
-    
-    #countDown{
-        top:39%;
-        width: 500px;
-        font-size: 40px;
-        left: 19%;
-    }
+
 }
 /*Then comes Medium Devices*/
 @media (min-width: 992px){
@@ -101,12 +90,7 @@
         margin-top: 76px;
     }
     .paddLlg15{
-       padding-left: 15px; 
-    }
-    #countDown{
-        width: 500px;
-        font-size: 40px;
-        left: 31%;
+       padding-left: 15px;
     }
 }
 
@@ -126,14 +110,6 @@
     }
     .fontlg40{
         font-size: 40px;
-    }
-    #countDown{
-        left: 40%;
-    }
-    #countDown{
-        width: 500px;
-        font-size: 40px;
-        left: 39%;
     }
 }
 
@@ -211,7 +187,7 @@ body{
     color:#f3eded;
 }
 .vcenter{
-   vertical-align: middle; 
+   vertical-align: middle;
 }
 .displayin-blk{
     display: inline-block;
@@ -295,7 +271,7 @@ font-awesome.min.css{
     border-radius: 4px;
 }
 hr{
-      border-top: 1px dashed #EF7F7E;  
+      border-top: 1px dashed #EF7F7E;
 }
 .imagesContent a{
     height: 50px;
@@ -310,14 +286,4 @@ hr{
     height: 200px;
     border: 5px solid #fff;
     border-radius: 4px;
-}
-#countDown{
-    z-index:2;
-    top:50%;
-}
-#countDown.xtra{
-    left:33%;
-}
-#countDown.xtra736{
-    left:35%;
 }
