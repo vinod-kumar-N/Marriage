@@ -119,7 +119,7 @@ _::-webkit-full-page-media, _:future, :root .nav li {
   z-index: 999; 
 
 }
-.nav li{
+.nav li, .nav>li a{
     z-index: 999;
 }
 .fa-heart{
