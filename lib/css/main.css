@@ -114,7 +114,12 @@
 }
 
 /*common Css*/
-.nav>li{
+_::-webkit-full-page-media, _:future, :root .nav li {
+
+  z-index: 999; 
+
+}
+.nav li{
     z-index: 999;
 }
 .fa-heart{
