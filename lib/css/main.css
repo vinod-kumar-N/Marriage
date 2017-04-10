@@ -116,6 +116,8 @@
 /*common Css*/
 .navbar-collapse,.nav.navbar-nav,.nav li, .nav>li a{
     z-index: 2;
+    transform:translateZ(2px);
+    position:relative;
 }
 .fa-heart{
     animation: heartbeat 1s infinite;
