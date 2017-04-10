@@ -115,7 +115,7 @@
 
 /*common Css*/
 .nav>li{
-    z-index: 2;
+    z-index: 999;
 }
 .fa-heart{
     animation: heartbeat 1s infinite;
