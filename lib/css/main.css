@@ -74,3 +74,17 @@
         background-position: 500px 1000px, 200px 400px, -100px 300px;
     }
 }
+canvas {
+  cursor: pointer;
+  position: absolute;
+}
+.start {
+  color: white;
+  font-family: 'Give You Glory', cursive;
+  font-size: 40px;
+  margin-top: -40px;
+  position: absolute; 
+  text-align: center;
+  top: 50%;
+  width: 100%;
+}
