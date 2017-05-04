@@ -74,7 +74,7 @@
         background-position: 500px 1000px, 200px 400px, -100px 300px;
     }
 }
-.navbar-default, #map{
+.navbar-default, #map,.imagesContent, .imagesContent a {
     z-index: 99;
 }
 canvas {
